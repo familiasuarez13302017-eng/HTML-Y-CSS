@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi página Web bonita</title>
+
+<style>
+
+/* PAGINA */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* ENCABEZADO */
+header{
+    background-color: #87CEFA;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+header h1{
+    margin: 0;
+    font-size: 32px;
+}
+
+header p{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+/* TARJETAS */
+.tarjeta{
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/* IMAGENES */
+.tarjeta img{
+    width: 100%;
+    height: 150px;
+}
+
+/* CONTENIDO */
+.contenido{
+    padding: 15px;
+}
+
+.contenido h2{
+    color: #5DADE2;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.contenido p{
+    color: gray;
+    font-size: 14px;
+}
+
+/* BOTONES */
+button{
+    background-color: #5DADE2;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3498DB;
+}
+
+/* FOOTER */
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ENCABEZADO -->
+<header>
+
+    <h1>Mi página Web bonita</h1>
+
+    <p>Ejemplo usando HTML y CSS básico</p>
+
+</header>
+
+<!-- CONTENEDOR -->
+<div class="contenedor">
+
+    <!-- TARJETA 1 -->
+    <div class="tarjeta">
+
+        <img src="https://picsum.photos/250/150?random=1">
+
+        <div class="contenido">
+
+            <h2>Mi colegio</h2>
+
+            <p>
+                Esta es una tarjeta que representa a la institucion educativa coal 
+            </p>
+
+            <a href="https://www.colegioadventistalibertad.edu.co/historia.php" target="_blank">
+
+                <button>COAL</button>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- TARJETA 2 -->
+    <div class="tarjeta">
+
+        <img src="https://picsum.photos/250/150?random=2">
+
+        <div class="contenido">
+
+            <h2>Ver videos</h2>
+
+            <p>
+                Puedes crear diseños modernos fácilmente con CSS.
+            </p>
+
+            <a href="https://www.youtube.com" target="_blank">
+
+                <button>YOUTUBE</button>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- TARJETA 3 -->
+    <div class="tarjeta">
+
+        <img src="https://picsum.photos/250/150?random=3">
+
+        <div class="contenido">
+
+            <h2>Noticias</h2>
+
+            <p>
+                Aquí usamos textos, imágenes y efectos básicos.
+            </p>
+
+            <a href="https://www.vanguardia.com" target="_blank">
+
+                <button>VANGUARDIA</button>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- PIE DE PAGINA -->
+<footer>
+
+    Creado con HTML y CSS por Tomas Bravo
+
+</footer>
+
+</body>
+</html>
