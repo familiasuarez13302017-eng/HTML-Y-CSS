@@ -1,0 +1,23 @@
+# CampoControl — Control Ganadero local
+
+Aplicación web local para gestionar entre 100 y 500 animales o más, con fichas y fotos, salud, reproducción, inventario, peso, leche y finanzas.
+
+## Cómo iniciar en Windows
+1. Instala Python 3 desde https://www.python.org/downloads/ si no lo tienes. Durante la instalación, marca "Add Python to PATH".
+2. Descomprime esta carpeta en el lugar donde quieras guardar la aplicación.
+3. Haz doble clic en `iniciar.bat`.
+4. Se abrirá el navegador en `http://127.0.0.1:8765`.
+5. Para cerrar la aplicación, ve a la ventana negra del servidor y pulsa Ctrl+C.
+
+## Archivos de datos
+- `ganado.json`: fichas y registros de la finca.
+- `fotos/`: imágenes de animales.
+- `respaldos/`: copias automáticas anteriores y respaldos manuales.
+
+Todo queda en esta carpeta; no se envían datos a internet. El navegador solo es la interfaz: el servidor local escribe los cambios a los archivos del proyecto.
+
+## Recomendaciones
+- Haz copias de toda la carpeta `ControlGanadero` en otro disco o memoria USB.
+- No edites `ganado.json` mientras la aplicación esté abierta.
+- La aplicación es una primera versión local, sin cuentas de usuario ni acceso remoto.
+- Si el puerto 8765 ya está ocupado, cierra el otro programa que lo esté usando antes de iniciar.
